@@ -46,6 +46,7 @@ namespace Kekzamen
                 cll.Surname = tbxSurname.Text;
                 cll.Group= tbxGroup.Text;
                 cll.Save();
+                FillData();
                 
             }
             else { MessageBox.Show("Все поля обязательны к заполнению!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error); }
@@ -94,14 +95,5 @@ namespace Kekzamen
             }
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-            
-
-                
-
-
-            
-        }
     }
 }
