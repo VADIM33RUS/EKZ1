@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\bin\Debug\Kekzamen.exe.config
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\bin\Debug\Kekzamen.exe
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\bin\Debug\Kekzamen.pdb
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\obj\Debug\Kekzamen.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\obj\Debug\Kekzamen.MainForm.resources
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\obj\Debug\Kekzamen.Properties.Resources.resources
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\obj\Debug\Kekzamen.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\obj\Debug\Kekzamen.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\obj\Debug\Kekzamen.exe
+C:\Users\User\Desktop\ekzamen\Ekzamen\src\Kekzamen\Kekzamen\obj\Debug\Kekzamen.pdb
