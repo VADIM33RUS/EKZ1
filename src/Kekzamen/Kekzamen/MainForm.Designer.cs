@@ -42,6 +42,7 @@
             this.tbxFilePath = new System.Windows.Forms.TextBox();
             this.labelPath = new System.Windows.Forms.Label();
             this.btnOpenFile = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDRazm)).BeginInit();
             this.SuspendLayout();
@@ -162,12 +163,24 @@
             this.btnOpenFile.TabIndex = 13;
             this.btnOpenFile.Text = "Выбрать файл";
             this.btnOpenFile.UseVisualStyleBackColor = true;
+            this.btnOpenFile.Click += new System.EventHandler(this.btnOpenFile_Click_1);
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(314, 32);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 20);
+            this.btnSave.TabIndex = 14;
+            this.btnSave.Text = "Сохранить";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(583, 356);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnOpenFile);
             this.Controls.Add(this.labelPath);
             this.Controls.Add(this.tbxFilePath);
@@ -207,5 +220,6 @@
         private System.Windows.Forms.TextBox tbxFilePath;
         private System.Windows.Forms.Label labelPath;
         private System.Windows.Forms.Button btnOpenFile;
+        private System.Windows.Forms.Button btnSave;
     }
 }
