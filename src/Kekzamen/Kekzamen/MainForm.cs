@@ -12,7 +12,7 @@ namespace Kekzamen
 {
     public partial class MainForm : Form
     {
-        
+
         public MainForm()
         {
             InitializeComponent();
@@ -29,8 +29,11 @@ namespace Kekzamen
             int razm = Convert.ToInt32(NUDRazm.Value);
         }
 
+
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
+
 
         }
 
@@ -50,6 +53,26 @@ namespace Kekzamen
             btnSubmit.Visible = false;
 
 
+        }
+
+        private void btnOpenFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Text Files(*.txt)|*.txt| All files(*.*)|*.*";
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    tbxFilePath.Text = ofd.FileName;
+                    WorkWithFile.FilePath = ofd.FileName;
+
+
+                }
+                catch
+                {
+                    MessageBox.Show("Формат не соответсвует требуемому.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }
